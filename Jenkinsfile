@@ -4,7 +4,7 @@ pipeline {
     environment {
         AWS_ACCESS_KEY_ID = credentials('BELI_AWS_ACCESS_KEY_ID')
         AWS_SECRET_ACCESS_KEY = credentials('BELI_AWS_SECRET_ACCESS_KEY')
-        AWS_DEFAULT_REGION = "us-west-1"
+        AWS_DEFAULT_REGION = "eu-west-2"
     }
     stages {
         stage('Checkout') {
